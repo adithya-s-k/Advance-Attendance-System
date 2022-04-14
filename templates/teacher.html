@@ -1,0 +1,29 @@
+{%extends "base.html"%}
+{%block head%}
+"Attendence"
+{%endblock%}
+
+{%block body%}
+<form action="/upload_capture" method="post" enctype="multipart/form-data">
+  <h2></h2>
+  <br>
+  <br>
+  <label>Upload images:</label>
+  <input type="file" name="images" multiple>
+  <br>
+  <br>
+  <input type="submit" name="submit" />
+</form>
+
+<br>
+
+<br>
+<br>
+
+<form action="/generate_attendence" method="GET" enctype="multipart/form-data">
+  
+  <input type="submit" name="check" />
+</form>
+
+
+{%endblock%}

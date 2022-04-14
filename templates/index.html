@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+
+{%block head%}
+
+"Attendence"
+{%endblock%}
+
+{%block body%}
+<h2>I am a </h2>
+
+    <!-- Avatar image -->
+    <div class="teacher">
+    <img id="teacher" src="{{url_for('static',filename='images/teacher.png')}}" alt="teacher">
+    <button type="button" name="teacher"><a href="/teachers">Teacher</a></button>
+    </div>
+
+
+
+    <div class="student">
+      <img id="student" src="{{url_for('static',filename='images/student.png')}}" alt="student">
+      <button type="button" name="student" ><a href="/students">Student</a></button>
+    </div>
+
+
+{%endblock%}

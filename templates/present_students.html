@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+
+{%block head%}
+
+Present Students
+{%endblock%}
+
+{%block body%}
+
+<h1>Students present</h1>
+{%for i in post%}
+            <h3>{{i[0:-4]}}</h3>
+{%endfor%}
+
+
+
+
+{%endblock%}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+{%block head%}
+Take attendence
+{%endblock%}
+
+{%block body%}
+<form action="/upload_capture" method="post">
+  <label>Take an image</label>
+  <input type="file" accept="image/*" capture multiple />
+
+
+</form>
+
+{%endblock%}
