@@ -99,11 +99,5 @@ def get_attendence():
 
         #finish this part
 
-
-
-
-
-
-
 if __name__=="__main__":
     app.run(debug=True)
