@@ -3,7 +3,7 @@
 
 {%block head%}
 
-"Attendence"
+<title>"Attendence"</title>
 {%endblock%}
 
 {%block body%}
@@ -15,12 +15,9 @@
     <button type="button" name="teacher"><a href="/teachers">Teacher</a></button>
     </div>
 
-
-
     <div class="student">
       <img id="student" src="{{url_for('static',filename='images/student.png')}}" alt="student">
       <button type="button" name="student" ><a href="/students">Student</a></button>
     </div>
-
 
 {%endblock%}
