@@ -1,8 +1,10 @@
 
 # Advanced Attendace System
 
-Current methods of taking Attendace in schools and colleges are inefficient and time consuming.
-We have come up with a solution which uses facial detection and recognition inorder to give Attendace to the student or employee
+Current methods of taking Attendance in schools and colleges are inefficient and time consuming.
+We have come up with a solution which uses facial detection and recognition in order to give Attendance to the student or employee
+
+We built this project for DotSlash 3.0 Hackathon, [PES University](https://pes.edu)
 ## Installation
 
 Download the zip file or clone the reposiotry
@@ -10,7 +12,7 @@ Download the zip file or clone the reposiotry
 ```bash
 git clone https://github.com/adithya-s-k/Advance-Attendance-System.git
 ```
-Go to the reposiotry where you have cloned and run app.py
+Go to the repository where you have cloned and run app.py
 ```bash
 python app.py
 ```
@@ -19,18 +21,18 @@ python app.py
 ## How it works
 The project is built using Python and Flask.
 
-We are using a [face_recogintion](https://face-recognition.readthedocs.io/en/latest/readme.html) library to detect faces and compare faces.
+We are using a [face_recognition](https://face-recognition.readthedocs.io/en/latest/readme.html) library to detect faces and compare faces.
 
 The teacher will have to take a photo of the class and upload it to the website at the beginning of the class.She should take the photo in such a 
 way that everyones face is properly visible.
 We now will use facial detection to detect the faces and put a box around them as shown below.
-![App Screenshot](https://ibb.co/SXpN4yz)
-After the teacher verifies that everyones face is visible she will upload the photos on the website.
-In the backend each isolated face is stored and compared with a preexisitng data base of student faces.
-Here we will be using the face comparision feature and we will be giving attendace to all the students whos faces match.
+![.](https://ibb.co/SXpN4yz)
+After the teacher verifies that everyone's face is visible she will upload the photos on the website.
+In the backend each isolated face is stored and compared with a pre-existing data base of student faces.
+Here we will be using the face comparison feature and we will be giving attendance to all the students whose faces match.
 We will show the absentees list to the teacher where she can call out and verify.
 
-After the face matches the matched face will be added to the database for future comparision and thus the accuracy of the model will keep on increasing.
+After the face matches the matched face will be added to the database for future comparison and thus the accuracy of the model will keep on increasing.
 
 Here is the [flow chart](https://www.figma.com/file/ssy2MQrWiOkHtrcbPdV7mg/Attendace-Tracking-workflow?node-id=0%3A1)
 
@@ -59,6 +61,7 @@ Here is the [Project Video](https://youtu.be/mRgZdZOKjTk)
 
 - [@adithya-s-k](https://github.com/adithya-s-k)
 - [@senju-hashirama](https://github.com/senju-hashirama)
+- [@aaryanhb](https://github.com/aaryanhb)
 
 
 ## 🔗 Links
