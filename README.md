@@ -1,5 +1,5 @@
 
-# Advanced Attendace System
+# Advanced Attendance Tracking for Smart Class Rooms
 
 Current methods of taking Attendance in schools and colleges are inefficient and time consuming.
 We have come up with a solution which uses facial detection and recognition in order to give Attendance to the student or employee
